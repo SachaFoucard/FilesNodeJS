@@ -14,7 +14,7 @@ const Read = async (n) => {
 }
 
 // GetRandNumber function: returns a random number between 1 and 5
-const GetRandNumber = async () => { // choose a number beetween 0 - 6
+const GetRandNumber = () => { // choose a number beetween 0 - 6
     let a = Math.floor(Math.random() * 5) + 1;
     return a;
 }
